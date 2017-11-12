@@ -54,5 +54,6 @@ Rails.application.configure do
 
 	#might(hoping) display images in development and production
 	#not necessary
-	config.assets.digest = false
+	#img large in heroku but not in local
+	# config.assets.digest = false
 end
