@@ -54,5 +54,5 @@ Rails.application.configure do
 
 	#might(hoping) display images in development and production
 	#not necessary
-	# config.assets.digest = false
+	config.assets.digest = false
 end
