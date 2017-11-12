@@ -8,14 +8,12 @@
   </h2>
 
   <%= link_to "Sign up now!", 'signup_path', class: "btn btn-lg btn-primary" %>
-	<!-- DOWNLOAD THIS WHEN YOU HAVE AN INTERNET CONNNECTION -->
-	<!-- $ curl -o app/assets/images/rails.png -OL railstutorial.org/rails.png
- -->
 
 </div>
 
-<!-- <%= link_to image_tag("george.jpg", alt: "Rails logo"),
-            'http://rubyonrails.org/' %> -->
-
-<%= link_to image_tag("Nate_B_DeWaele_Fort_Lauderdale_Web_Developer_Headshot.jpg", alt: "Headshot of Nate B. DeWaele"),
+<%= link_to image_tag("george.jpg", alt: "Rails logo"),
             'http://rubyonrails.org/' %>
+
+<%= link_to image_tag("/rails.png", alt: "Headshot of Nate B. DeWaele"),
+            '' %>
+<%= link_to(image_tag("/headshot.jpg", :alt => "logo", :title => "Home"), "/", :class => "headshot") %>
