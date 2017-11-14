@@ -83,6 +83,33 @@ p {
 }
 
 
+
+.col-md-2 {
+    margin: 0 auto;
+		text-align: center;
+    padding-left: 0;
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.col-md-1.art {
+    margin: 0 auto;
+		text-align: center;
+    padding-left: 0;
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+
 ///////////////////
 // FIND A WAY TO SIZE AND CONSTRAIN ANY IMAGE
 ///////////////////
@@ -91,7 +118,7 @@ img {
 }
 
 .img-fluid {
-	max-width: 10%;
+	max-width: 20%;
 }
 .img-responsive {
     margin: 0 auto;
