@@ -4,22 +4,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:500');
 
 /* https://coolors.co/fcfcfc-394648-fffae3-99e1d9-5d576b
-baby powder
-arswnic black
-latte
-robin egg blue
-black coral
 */
 
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
-
+/* https://coolors.co/fcfcfc-394648-fffae3-99e1d9-5d576b
+*/
+$baby-powder: #fcfcfc;
+$arsenic-black: #394648;
+$latte: #fffae3;
+$robin-egg-blue: #99e1d9;
+$black-coral: #5d576b;
 /* universal */
 
 body {
   padding-top: 60px;
-	// font-family: 'Rajdhani', sans-serif;
+	/* font-family: 'Rajdhani', sans-serif; */
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -59,7 +60,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $light-gray;
+  color: $arsenic-black;
 }
 
 p {
@@ -71,6 +72,7 @@ p {
 
 .navbar {
   min-height: 6em;
+	background-color: $robin-egg-blue;
 }
 
 .my-name {
