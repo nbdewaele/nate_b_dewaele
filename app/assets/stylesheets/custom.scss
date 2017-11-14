@@ -23,9 +23,9 @@ textarea {
 .center {
   text-align: center;
 	h1 {
-	  margin-bottom: 20px;
+	  margin-bottom: 0px;
 		margin-top: 0;
-		padding-bottom: 20px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -81,8 +81,6 @@ p {
 	  text-decoration: none;
 	}
 }
-
-
 
 .col-md-2 {
     margin: 0 auto;
@@ -155,4 +153,27 @@ footer {
 .jumbotron{
   height: 100vh;
 	margin-top: 7vh;
+}
+
+.tagline {
+	font-size: 2em;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.bio {
+	font-size: 1.7em;
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 3.3em;
+}
+
+.headline {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.email-phone {
+	font-size: 1.5em;
+	margin-bottom: 3em;
 }
