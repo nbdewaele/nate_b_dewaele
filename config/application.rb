@@ -16,6 +16,6 @@ module StaticPages
     # -- all .rb files in that directory are automatically loaded.
 
 		#compiles before heroku push
-		config.assets.initialize_on_precompile = false
+		config.assets.initialize_on_precompile = true
   end
 end
