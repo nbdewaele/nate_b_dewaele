@@ -1,6 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:500');
+
+/* https://coolors.co/fcfcfc-394648-fffae3-99e1d9-5d576b
+baby powder
+arswnic black
+latte
+robin egg blue
+black coral
+*/
 
 /* mixins, variables, etc. */
 
@@ -10,6 +19,8 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+	// font-family: 'Rajdhani', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -171,6 +182,7 @@ footer {
 .headline {
 	margin-bottom: 0;
 	padding-bottom: 0;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 .email-phone {
