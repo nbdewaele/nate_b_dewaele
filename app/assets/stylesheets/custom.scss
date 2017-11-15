@@ -9,11 +9,11 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
-/* https://coolors.co/fcfcfc-394648-fffae3-99e1d9-5d576b
+/* https://coolors.co/fcfcfc-394648-acbdba-99e1d9-5d576b
 */
 $baby-powder: #fcfcfc;
 $arsenic-black: #394648;
-$latte: #fffae3;
+$latte: #acbdba;
 $robin-egg-blue: #99e1d9;
 $black-coral: #5d576b;
 /* universal */
@@ -22,6 +22,7 @@ body {
   padding-top: 60px;
 	/* font-family: 'Rajdhani', sans-serif; */
 	font-family: 'Open Sans', sans-serif;
+	background-color: $baby-powder ;
 }
 
 section {
@@ -42,7 +43,6 @@ textarea {
 }
 
 /* typography */
-$light-gray: #777;
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -60,12 +60,13 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $arsenic-black;
+  $black-coral: #5d576b;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+	$black-coral: #5d576b;
 }
 
 /* header */
@@ -73,10 +74,20 @@ p {
 .navbar {
   min-height: 6em;
 	background-color: $robin-egg-blue;
+	color: $arsenic-black;
 }
 
 .my-name {
 	margin-left: 2em;
+	color: $arsenic-black;
+}
+
+.row {
+	color: $black-coral;
+	&:hover {
+	  color: $arsenic-black;
+	  text-decoration: none;
+	}
 }
 
 #logo {
@@ -84,13 +95,13 @@ p {
   margin-right: 10px;
 	padding-left: 0;
   font-size: 2.5em;
-  color: #fff;
+  color: $black-coral;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 20px;
   font-weight: bold;
 	&:hover {
-	  color: #fff;
+	  color: $arsenic-black;
 	  text-decoration: none;
 	}
 }
@@ -100,7 +111,7 @@ p {
 		text-align: center;
     padding-left: 0;
     font-size: 2.5em;
-    color: #fff;
+    color: $black-coral;
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 20px;
@@ -112,13 +123,20 @@ p {
 		text-align: center;
     padding-left: 0;
     font-size: 2.5em;
-    color: #fff;
+    color: $black-coral;
     text-transform: uppercase;
     letter-spacing: -1px;
     padding-top: 20px;
     font-weight: bold;
 }
 
+#top-right-nav {
+	color: $black-coral;
+	&:hover {
+	  color: $arsenic-black;
+	  text-decoration: none;
+	}
+}
 
 
 ///////////////////
@@ -140,12 +158,12 @@ img {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $light-gray;
+  border-top: 1px solid $black-coral;
+  color: $black-coral;
 	a {
-		color: $gray;
+		color: $black-coral;
 		&:hover {
-		  color: $gray-darker;
+		  color: $black-coral;
 		}
 	}
 	small {
@@ -162,10 +180,18 @@ footer {
 	}
 }
 
+.fa {
+	color: $robin-egg-blue;
+	&:hover {
+		color: $black-coral;
+	}
+}
+
 /* Home */
 .jumbotron{
   height: 100vh;
 	margin-top: 7vh;
+	background-color: $latte;
 }
 
 .tagline {
@@ -190,4 +216,5 @@ footer {
 .email-phone {
 	font-size: 1.5em;
 	margin-bottom: 3em;
+	color: $black_coral;
 }
