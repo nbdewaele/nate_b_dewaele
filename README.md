@@ -25,7 +25,4 @@ The home page is complete but the header shim needs refining to allow for pretti
 
 Resume, Art, Projects links link over but are not complete yet.
 
-+![alt text](https://raw.githubusercontent.com/nbdewaele/nate_b_dewaele/app/assets/images/profile_site_sc.png)
-
-
 ![Screenshot of Home for portfolio site](/app/assets/images/profile_site_sc.png?raw=true "Home Page")
