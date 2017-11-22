@@ -2,7 +2,7 @@
 
 My profile website.  A place to link out my show off my technical and artistic work.  It is built with Ruby on Rails and writen in HTML5, SCSS and Boostrap.
 
-It is live and you can go to [https://blooming-sands-93071.herokuapp.com/](https://blooming-sands-93071.herokuapp.com/)
+It is live and you can go to [https://blooming-sands-93071.herokuapp.com/](https://natebdewaele.com)
 Stand by for transfer of natebdewaele.com DNS from google domains to heroku.
 
 Rails version: Rails 5.1.4
