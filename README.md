@@ -1,12 +1,10 @@
 # README
-
-My profile website.  A place to link out my show off my technical and artistic work.  It is built with Ruby on Rails and writen in HTML5, SCSS and Boostrap.
-
-It is live and you can go to [natebdewaele.com](https://natebdewaele.com)
-Stand by for transfer of natebdewaele.com DNS from google domains to heroku.
-
 Rails version: Rails 5.1.4
 ruby 2.4.1
+
+My profile website.  A place to my showcase my technical and artistic work.  It is built with Ruby on Rails and writen in HTML5, SCSS and Boostrap.
+
+It is live and you can go to [natebdewaele.com](https://natebdewaele.com)
 
 To run locally, enter in terminal
 `bundle install`
@@ -23,6 +21,6 @@ To run tests, enter in terminal:
 
 The home page is complete but the header shim needs refining to allow for prettier transition to mobile.  
 
-Resume, Art, Projects links link over but are not complete yet.
+Resume, Art, and Projects links link over but are not complete yet.
 
 ![Screenshot of Home for portfolio site](/app/assets/images/profile_site_sc.png?raw=true "Home Page")
