@@ -1,36 +1,26 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container-fluid my-name">
-			<div class="row">
-				<div class="col-md-1" id="top-right-nav">
-					<%= link_to "Nate B. DeWaele", '/', id: "logo" %>
-				</div>
+<header class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <%= link_to "Nate B. DeWaele", '/', id: "logo" %>
+	    </div>
 
-				<div class="col-md-6">
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="current active"><%= link_to "Resume", 'resume', :id => "top-right-nav" %></li>
+	        <li class="current active"><%= link_to "Art", 'art_portfolio', :id => "top-right-nav" %></li>
+					<li class="current active"><%= link_to "Projects", 'dev_portfolio', :id => "top-right-nav" %></li>
+	      </ul>
 
-				</div>
-
-				<div class="col-md-2">
-					<%= link_to "Resume", 'resume', :id => "top-right-nav" %>
-				</div>
-
-				<div class="col-md-1 art">
-	        <%= link_to "Art", 'art_portfolio', :id => "top-right-nav" %>
-				</div>
-
-				<div class="col-md-2">
-	        <%= link_to "Projects", 'dev_portfolio', :id => "top-right-nav" %>
-				</div>
-
-
-
-			</div>
-
-
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-
-
-      </ul>
-    </nav>
-  </div>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 </header>
