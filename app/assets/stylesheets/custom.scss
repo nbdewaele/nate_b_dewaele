@@ -71,32 +71,26 @@ p {
 
 /* header */
 
-.navbar {
-  min-height: 6em;
+.container-fluid {
 	background-color: $robin-egg-blue;
 	color: $arsenic-black;
 }
 
-.my-name {
-	margin-left: 2em;
-	color: $arsenic-black;
+.navbar-nav {
+	background-color: $robin-egg-blue;
+	padding-top: 3em;
+	padding-left: 1.5em;
+	font-size: 0.5em;
 }
 
-.row {
-	color: $black-coral;
-	&:hover {
-	  color: $arsenic-black;
-	  text-decoration: none;
-	}
+.resume {
+	margin-left: 3em;
 }
+
 
 #top-right-nav {
-	color: $robin-egg-blue;
 	background-color: $robin-egg-blue;
-}
-
-#logo {
-  float: left;
+	float: left;
   margin-right: 10px;
 	padding-left: 0;
   font-size: 2.5em;
@@ -111,29 +105,22 @@ p {
 	}
 }
 
-.col-md-2 {
-    margin: 0 auto;
-		text-align: center;
-    padding-left: 0;
-    font-size: 2.5em;
-    color: $black-coral;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    padding-top: 20px;
-    font-weight: bold;
+#logo {
+  float: left;
+  margin-right: 1em;
+	padding-left: 0;
+  font-size: 2.5em;
+  color: $black-coral;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  font-weight: bold;
+	&:hover {
+	  color: $arsenic-black;
+	  text-decoration: none;
+	}
 }
 
-.col-md-1.art {
-    margin: 0 auto;
-		text-align: center;
-    padding-left: 0;
-    font-size: 2.5em;
-    color: $black-coral;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    padding-top: 20px;
-    font-weight: bold;
-}
 
 #top-right-nav {
 	color: $black-coral;
@@ -141,11 +128,6 @@ p {
 	  color: $arsenic-black;
 	  text-decoration: none;
 	}
-}
-
-.tagline-resume {
-	margin-top: 0;
-	margin-bottom: .5em;
 }
 
 ///////////////////
