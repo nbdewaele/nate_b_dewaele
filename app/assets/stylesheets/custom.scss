@@ -21,7 +21,7 @@ $black-coral: #5d576b;
 body {
   padding-top: 60px;
 	/* font-family: 'Rajdhani', sans-serif; */
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
 	background-color: $baby-powder ;
 }
 
@@ -83,11 +83,6 @@ p {
 	font-size: 0.5em;
 }
 
-.resume {
-	margin-left: 3em;
-}
-
-
 #top-right-nav {
 	background-color: $robin-egg-blue;
 	float: left;
@@ -115,15 +110,7 @@ p {
   letter-spacing: -1px;
   padding-top: 20px;
   font-weight: bold;
-	&:hover {
-	  color: $arsenic-black;
-	  text-decoration: none;
-	}
-}
-
-
-#top-right-nav {
-	color: $black-coral;
+	font-family: 'Rajdhani';
 	&:hover {
 	  color: $arsenic-black;
 	  text-decoration: none;
@@ -190,6 +177,7 @@ footer {
 	font-size: 2em;
 	width: 85%;
 	margin: 0 auto;
+	font-family: 'Rajdhani';
 }
 
 .bio {
@@ -212,13 +200,26 @@ footer {
 }
 
 /* resume */
+/* WIDTH, MARGINS, PADDING, FONT SIZES NEED ADJUSTING */
 
-.res-col {
-	background-color: $latte;
-	margin: 0 auto;
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+	width: 95%;
 }
 
-.row-fluid {
-	height: 100vh;
-	margin-top: 7vh;
+.row {
+	margin-top: 4em;
+}
+
+.resume-content {
+	margin-bottom: 2em;
+}
+
+.date-location {
+	color: $arsenic-black;
+}
+
+.projects-resume {
+	color: $black_coral;
 }

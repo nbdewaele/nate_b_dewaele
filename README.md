@@ -2,7 +2,7 @@
 Rails version: Rails 5.1.4
 ruby 2.4.1
 
-My profile website.  A place to my showcase my technical and artistic work.  It is built with Ruby on Rails and writen in HTML5, SCSS and Boostrap.
+My profile website.  A place to my showcase my technical and artistic work.  It is built with Ruby on Rails and written in HTML5, SCSS and Bootstrap.
 
 It is live and you can go to [natebdewaele.com](https://natebdewaele.com)
 
@@ -15,6 +15,9 @@ To run on heroku, enter in terminal:
 `git push heroku master`
 `rake assets:precompile`
 `heroku open`
+
+If Heroku styling doesn't match local styling:
+`RAILS_ENV=production bundle exec rake assets:precompile`
 
 To run tests, enter in terminal:
 `rails test`
