@@ -6,7 +6,6 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="portfolio-image-space">
-				<%#= image_tag("vertical_gardening_sc.png", class: 'portfolio-image', alt: "Vertical Gardening School") %>
 				<%= link_to image_tag("vertical_gardening_sc.jpg", alt: "Vertical Gardening School"), 'https://verticalgardeningschool.com/', target: '_blank' %>
       </div>
 			<div class="about-project">
@@ -14,7 +13,14 @@
 			</div>
     </div>
     <div class="col-sm-4">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sapiente pariatur deleniti neque, quo error assumenda maiores ducimus nisi amet consequuntur deserunt, delectus itaque fuga ipsa ut tenetur! Quidem, est.
+			<div class="portfolio-image-space">
+				<%= link_to image_tag("escher_sc.png", alt: "Escher home page"), 'https://zenpark.herokuapp.com/', target: '_blank' %>
+      </div>
+			<div class="about-project">
+				<p>This was my final project at Wyncode.  Check out the repo at
+					<%= link_to 'https://github.com/nbdewaele/zenpark', target: '_blank' %>
+				</p>
+			</div>
     </div>
     <div class="col-sm-4">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sapiente pariatur deleniti neque, quo error assumenda maiores ducimus nisi amet consequuntur deserunt, delectus itaque fuga ipsa ut tenetur! Quidem, est.
