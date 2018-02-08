@@ -6,9 +6,8 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="portfolio-image-space">
-				<%= link_to "https://verticalgardeningschool.com/", target: :_blank do %>
-				  <%= image_tag("vertical_gardening_sc.png", class: 'portfolio-image', alt: "Vertical Gardening School") %>
-				<% end %>
+				<%#= image_tag("vertical_gardening_sc.png", class: 'portfolio-image', alt: "Vertical Gardening School") %>
+				<%= link_to image_tag("vertical_gardening_sc.jpg", alt: "Vertical Gardening School"), 'https://verticalgardeningschool.com/', target: '_blank' %>
       </div>
 			<div class="about-project">
 				<p>This is about a project</p>
