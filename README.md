@@ -1,6 +1,6 @@
 # README
 Rails version: Rails 5.1.4
-ruby 2.4.1
+ruby 2.5.0
 
 My profile website.  A place to my showcase my technical and artistic work.  It is built with Ruby on Rails and written in HTML5, SCSS and Bootstrap.
 
