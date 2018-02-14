@@ -2,6 +2,7 @@
 Rails version: Rails 5.1.4
 ruby 2.5.0
 
+run to get styling in deployment -  $ `RAILS_ENV=production bundle exec rake assets:precompile`
 My profile website.  A place to my showcase my technical and artistic work.  It is built with Ruby on Rails and written in HTML5, SCSS and Bootstrap.
 
 It is live and you can go to [natebdewaele.com](https://natebdewaele.com)
